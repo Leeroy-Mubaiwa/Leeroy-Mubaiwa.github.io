@@ -6,7 +6,17 @@
 html {
   height: 100%;  
 }
-
+button{
+	background-color: #54AFE4;
+	border: none;
+	border-radius: 100px;
+	padding: 10px 40px 10px 40px;
+	cursor: pointer;
+	font-size: 20px;
+	font-family:font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+	color: white;
+	
+}
 body {
   min-height: 100%;  
   background: #eee;
