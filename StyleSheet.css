@@ -94,6 +94,13 @@ body {
     border-radius: 5px;
 }
 
+.btn {
+    height: 30px;
+    width: 100px;
+    background-color: mediumseagreen;
+    color: white;
+}
+
 .header {
     margin-bottom: 30px;
     padding-left: 10px;
