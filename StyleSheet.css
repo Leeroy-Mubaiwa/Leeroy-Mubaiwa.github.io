@@ -94,6 +94,32 @@ body {
     border-radius: 5px;
 }
 
+.welcome-pane {
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    background-color: mediumseagreen;
+    box-shadow: 1px 1px 2px 1px mediumaquamarine;
+}
+
+.welcome-pane-space {
+    height: 100px;
+}
+
+.welcome-pane-inside {
+    margin: auto;
+    width: 80%;
+    height: 80%;
+}
+
+.header-text {
+    color: white;
+}
+
+.header-paragraph {
+    color: white;
+}
+
 .btn {
     height: 30px;
     width: 100px;
