@@ -8,6 +8,65 @@ html {
     height: 100%;
 }
 
+.top-pane {
+    height: 75px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    position: fixed;
+    scroll-behavior: unset;
+    margin-top: 0px;
+    box-shadow: 1px 1px 2px #222;
+}
+
+.logos {
+    max-height: 75%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    cursor: hand;
+}
+
+.logos:hover {
+    cursor: hand;
+}
+
+.right-top-pane {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left-top-pane {
+    max-height: 70px;
+    min-width: 200px;
+}
+
+.logos {
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button-top {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button-top:hover {
+    background-color: mediumseagreen;
+    border-radius: 0px;
+}
+
+.pane-top {
+    float: right;
+}
+
 body {
     min-height: 100%;
     background: #eee;
@@ -22,18 +81,17 @@ body {
 
 .container {
     max-width: max-content;
-    background: #fff;
     margin: 0px auto 0px;
+    background: #fff;
     box-shadow: 1px 1px 2px #DAD7D7;
     border-radius: 3px;
     padding: 40px;
-    margin-top: 50px;
 }
 
-img {
+.logo {
     width: 81px;
     height: 81px;
-    border-radius: 99px;
+    border-radius: 5px;
 }
 
 .header {
@@ -43,6 +101,11 @@ img {
     padding-bottom: 10px;
     padding-top: 10px;
     background: #eee;
+}
+
+.card {
+    background-color: #000;
+    margin-top: 100px;
 }
 
 .full-name {
@@ -81,17 +144,6 @@ li {
 .address {
     color: #54AFE4;
     font-weight: 300;
-}
-
-.btn {
-    background-color: #54AFE4;
-    border: none;
-    border-radius: 100px;
-    padding: 10px 40px 10px 40px;
-    cursor: pointer;
-    font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
 }
 
 .separator {
@@ -173,14 +225,6 @@ a {
     text-decoration: none;
     color: #000;
     font-style: italic;
-}
-
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    text-decoration: button;
-    color: #000;
 }
 
 a:hover {
