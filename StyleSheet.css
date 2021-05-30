@@ -26,9 +26,9 @@ html {
 }
 
 .bottom-pane {
-    height: 50px;
+    height: 40 px;
     width: 100%;
-    background-color: #222;
+    background-color: #3F3D56;
     border-width: 0px 1px 0px 0px;
     border-color: #000;
     display: flex;
@@ -153,32 +153,43 @@ body {
 }
 
 .welcome-pane {
+    background-image: url(img/Icons/svg/051-working-computer-svg.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 300px;
     /*filter: blur(8px);*/
     /*  -webkit-filter: blur(8px);*/
     width: 80%;
     margin: auto;
-    background-color: mediumseagreen;
+    background-color: white;
     /*background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);*/
     /*  box-shadow: 1px 1px 2px 1px mediumaquamarine;*/
 }
 
+.welcome-pane-image {
+    height: 100%;
+    width: 100%;
+}
+
 .welcome-pane-space {
     height: 100px;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
 }
 
 .welcome-pane-inside {
     margin: auto;
-    width: 80%;
+    width: 50%;
     height: 80%;
+    margin-left: 40%;
 }
 
 .header-text {
-    color: white;
+    color: mediumseagreen;
 }
 
 .header-paragraph {
-    color: white;
+    color: #999;
 }
 
 .btn {
