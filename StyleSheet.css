@@ -25,6 +25,7 @@ html {
     border-width: 0px 1px 0px 0px;
     border-color: #000;
     display: flex;
+    justify-content: space-between;
     bottom: 0;
     position: fixed;
     scroll-behavior: unset;
@@ -163,6 +164,7 @@ body {
 .left-panel {
     height: 80%;
     width: 15%;
+    min-width: 200px;
     scroll-behavior: auto;
     background-color: white;
     position: fixed;
@@ -261,10 +263,12 @@ body {
 
 .first-name {
     font-weight: 700;
+    color: white;
 }
 
 .last-name {
     font-weight: 300;
+    color: white;
 }
 
 li {
@@ -277,17 +281,18 @@ li {
 
 .contact-info {
     margin-bottom: 20px;
+    color: white;
 }
 
 .heading {
-    color: #54AFE4;
+    color: mediumaquamarine;
     text-indent: 30px;
 }
 
 .email,
 .phone,
 .address {
-    color: #54AFE4;
+    color: whitesmoke;
     font-weight: 300;
 }
 
@@ -337,7 +342,7 @@ th {
 
 .section__title {
     letter-spacing: 2px;
-    color: #54AFE4;
+    color: mediumseagreen;
     font-weight: bold;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -423,4 +428,37 @@ input:checked+label {
 .list-buttons:hover {
     background-color: mediumseagreen;
     color: white;
+}
+
+.download-cv {
+    margin-right: 50px;
+    background-color: royalblue;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    height: 50px;
+}
+
+.download-cv:hover {
+    font-style: normal;
+    cursor: pointer;
+}
+
+.profile-picture {
+    max-width: 90%;
+}
+
+.left-panel-resume {
+    height: 80%;
+    width: 20%;
+    min-width: 200px;
+    scroll-behavior: auto;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
 }
