@@ -161,8 +161,24 @@ body {
     color: #999;
 }
 
+.left-panel {
+    height: 80%;
+    width: 15%;
+    scroll-behavior: auto;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
 .media-links:hover {
-    color: mediumseagreen;
+    background-color: mediumseagreen;
+    color: white;
+    text-decoration: none;
 }
 
 .media-links-img {
@@ -390,4 +406,23 @@ label {
 
 input:checked+label {
     background: #79A9CE;
+}
+
+.list-buttons {
+    height: 30px;
+    ;
+    border: none;
+    text-align: right;
+    color: #999;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 75%;
+}
+
+.list-buttons:hover {
+    background-color: mediumseagreen;
+    color: white;
 }
