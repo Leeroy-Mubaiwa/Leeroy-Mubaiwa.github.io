@@ -156,11 +156,12 @@ body {
     background-image: url(img/Icons/svg/051-working-computer-svg.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 300px;
+    height: fit-content;
     /*filter: blur(8px);*/
     /*  -webkit-filter: blur(8px);*/
     width: 80%;
     margin: auto;
+    margin-top: 1%;
     background-color: white;
     /*background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);*/
     /*  box-shadow: 1px 1px 2px 1px mediumaquamarine;*/
@@ -172,7 +173,7 @@ body {
 }
 
 .welcome-pane-space {
-    height: 100px;
+    height: 70px;
     filter: blur(8px);
     -webkit-filter: blur(8px);
 }
