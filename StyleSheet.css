@@ -16,19 +16,34 @@ html {
     position: fixed;
     scroll-behavior: unset;
     margin-top: 0px;
-    box-shadow: 1px 1px 2px mediumaquamarine;
+    /* box-shadow: 1px 1px 2px mediumaquamarine;*/
+}
+
+.home-page {
+    background: url('img/background.jpg') no-repeat center fixed;
+    ;
+    background-size: cover;
 }
 
 .bottom-pane {
     height: 50px;
     width: 100%;
-    background-color: mediumseagreen;
+    background-color: #222;
+    border-width: 0px 1px 0px 0px;
+    border-color: #000;
     display: flex;
     bottom: 0;
     position: fixed;
     scroll-behavior: unset;
     margin-bottom: 0px;
-    box-shadow: 1px 1px 2px mediumaquamarine;
+    /*   box-shadow: 1px 1px 2px mediumaquamarine;*/
+}
+
+.footer-left {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .logos {
@@ -67,7 +82,8 @@ html {
     background-color: mediumseagreen;
     border: none;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
 }
 
 .button-top:hover {
@@ -115,13 +131,36 @@ body {
     margin-top: 50px;
 }
 
+.media-links {
+    font-style: normal;
+    font-size: 12px;
+    margin-top: 0px;
+    color: #999;
+}
+
+.media-links:hover {
+    color: mediumseagreen;
+}
+
+.media-links-img {
+    height: 24px;
+    width: 24px;
+}
+
+.media-section {
+    display: flex;
+    margin-left: 20px;
+}
+
 .welcome-pane {
     height: 300px;
+    /*filter: blur(8px);*/
+    /*  -webkit-filter: blur(8px);*/
     width: 80%;
     margin: auto;
     background-color: mediumseagreen;
     /*background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);*/
-    box-shadow: 1px 1px 2px 1px mediumaquamarine;
+    /*  box-shadow: 1px 1px 2px 1px mediumaquamarine;*/
 }
 
 .welcome-pane-space {
