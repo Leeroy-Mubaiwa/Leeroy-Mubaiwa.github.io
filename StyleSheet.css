@@ -19,12 +19,6 @@ html {
     /* box-shadow: 1px 1px 2px mediumaquamarine;*/
 }
 
-.home-page {
-    background: url('img/background.jpg') no-repeat center fixed;
-    ;
-    background-size: cover;
-}
-
 .bottom-pane {
     height: 40 px;
     width: 100%;
@@ -126,6 +120,7 @@ body {
 .home-table-header {
     background-color: mediumseagreen;
     color: white;
+    border: none;
 }
 
 .home-table-header:hover {
