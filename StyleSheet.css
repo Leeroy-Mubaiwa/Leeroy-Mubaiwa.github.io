@@ -93,7 +93,11 @@ body {
     height: 81px;
     border-radius: 5px;
 }
-
+.list-links{
+    height: 300px;
+    width: 0%;
+    background-color: #dddddd;
+}
 .welcome-pane {
     height: 300px;
     width: 80%;
