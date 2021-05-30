@@ -123,10 +123,38 @@ body {
     border-radius: 5px;
 }
 
+.home-table-header {
+    background-color: mediumseagreen;
+    color: white;
+}
+
+.home-table-header:hover {
+    box-shadow: 2px 2px 2px 2px #999;
+}
+
+.link-header {
+    color: mediumseagreen;
+}
+
+.home-page-table {
+    border-width: 0px;
+    border: none
+}
+
+.home-table-row {
+    border-width: 0px;
+    border: none
+}
+
+.home-table-row:hover {
+    box-shadow: 2px 2px 2px 2px #999;
+}
+
 .list-links {
-    height: 300px;
+    height: fit-content;
+    padding: 20px;
     width: 80%;
-    background-color: whitesmoke;
+    background-color: white;
     margin: auto;
     margin-top: 50px;
 }
@@ -161,8 +189,10 @@ body {
     /*  -webkit-filter: blur(8px);*/
     width: 80%;
     margin: auto;
-    margin-top: 1%;
+    margin-top: 20px;
+    min-height: 200px;
     background-color: white;
+    padding-top: 20px;
     /*background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);*/
     /*  box-shadow: 1px 1px 2px 1px mediumaquamarine;*/
 }
