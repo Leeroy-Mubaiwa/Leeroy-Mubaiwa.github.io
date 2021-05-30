@@ -9,14 +9,26 @@ html {
 }
 
 .top-pane {
-    height: 75px;
+    height: 50px;
     width: 100%;
-    background-color: #000;
+    background-color: mediumseagreen;
     display: flex;
     position: fixed;
     scroll-behavior: unset;
     margin-top: 0px;
-    box-shadow: 1px 1px 2px #222;
+    box-shadow: 1px 1px 2px mediumaquamarine;
+}
+
+.bottom-pane {
+    height: 50px;
+    width: 100%;
+    background-color: mediumseagreen;
+    display: flex;
+    bottom: 0;
+    position: fixed;
+    scroll-behavior: unset;
+    margin-bottom: 0px;
+    box-shadow: 1px 1px 2px mediumaquamarine;
 }
 
 .logos {
@@ -49,18 +61,19 @@ html {
 }
 
 .button-top {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     width: 100px;
-    background-color: black;
+    background-color: mediumseagreen;
     border: none;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .button-top:hover {
-    background-color: mediumseagreen;
+    background-color: mediumaquamarine;
     border-radius: 0px;
+    cursor: pointer;
 }
 
 .pane-top {
