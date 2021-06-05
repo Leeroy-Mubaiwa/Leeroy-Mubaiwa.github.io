@@ -15,6 +15,7 @@ html {
     display: flex;
     position: fixed;
     margin-top: 0px;
+    scroll-behavior: auto;
     /* box-shadow: 1px 1px 2px mediumaquamarine;*/
 }
 
@@ -100,6 +101,7 @@ body {
     font-size: 14px;
     line-height: 26px;
     padding-bottom: 50px;
+    height: 100%;
 }
 
 .container {
@@ -451,7 +453,7 @@ input:checked+label {
 .left-panel-resume {
     height: 80%;
     width: 20%;
-    min-width: 200px;
+    min-width: 5%;
     scroll-behavior: auto;
     background-color: white;
     position: fixed;
@@ -461,4 +463,46 @@ input:checked+label {
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 20px;
+}
+
+.projects-div {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.hotel-pane {
+    height: fit-content;
+    width: 60%;
+    background-color: white;
+    margin-top: 5%;
+    margin-right: 1%;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.contact-page-table {
+    width: 50%;
+    margin: auto;
+    border: none;
+}
+
+td:hover {
+    cursor: pointer;
+    background-color: mediumseagreen;
+    color: white;
+}
+
+.project-header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+    font-size: 18px;
+    text-decoration: dotted;
+    text-transform: uppercase;
+}
+
+.xt-img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
 }
