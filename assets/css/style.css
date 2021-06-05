@@ -84,12 +84,6 @@ h6 {
 # Back to top button
 --------------------------------------------------------------*/
 
-.text-center {
-    background-color: #18d26e;
-    color: white;
-    border-radius: 0px;
-}
-
 .back-to-top {
     position: fixed;
     display: none;
