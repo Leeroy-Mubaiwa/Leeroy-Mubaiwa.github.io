@@ -27,7 +27,7 @@ body {
     background-color: #ffffff;
     width: 80%;
     max-width: 400px;
-    min-width: 320px;
+    min-width: 270px;
     height: 330px;
     border: none;
     border-radius: 1px;
@@ -41,7 +41,7 @@ body {
     height: fit-content;
     width: 80%;
     max-width: 400px;
-    min-width: 320px;
+    min-width: 270px;
     margin: 20px auto auto auto;
     background-color: rgb(28, 28, 28);
     border: none;
