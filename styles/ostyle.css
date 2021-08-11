@@ -152,16 +152,6 @@ body {
     flex-direction: column;
 }
 
-@media (max-width: 430px) {
-    .center {
-        border-radius: 10px;
-        border: none;
-    }
-    .contactdetails {
-        border: none
-    }
-}
-
 .navigationitems {
     display: flex;
     flex-direction: row;
@@ -186,6 +176,11 @@ body {
     margin: 5px auto 20px auto;
 }
 
+.description-profile {
+    font-size: 13px;
+    text-align: center;
+}
+
 .headertext {
     font-size: 13px;
     font-weight: 700;
@@ -196,21 +191,54 @@ body {
     height: fit-content;
     padding: 5px;
     width: fit-content;
+    display: flex;
+    flex-direction: row;
     margin: auto;
     background: rgb(235, 235, 235, 0.9);
     border-radius: 5px;
 }
 
-.names {
-    border-collapse: collapse;
+.myimage {
+    height: 100px;
+    border-radius: 50%;
 }
 
-.rows {
-    height: 40px;
-    border: solid 1px #5d5d5d;
-    border-width: 0px 0px 1px 0px;
+.profile-div {
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
 }
 
-.left {
-    text-align: right;
+.info {
+    margin: auto 20px auto 20px;
+}
+
+hr {
+    border: solid 1px #cdcdcd;
+    border-width: 1px 0px 0px 0px;
+    margin: 0px 0px 10px 0px;
+}
+
+@media (max-width: 430px) {
+    .center {
+        border-radius: 10px;
+        border: none;
+    }
+    .contactdetails {
+        border: none
+    }
+}
+
+@media (max-width: 430px) {
+    .table-div {
+        display: flex;
+        flex-direction: column;
+    }
+    .innerdetails {
+        display: flex;
+        flex-direction: column;
+    }
+    .details {
+        text-align: center;
+    }
 }
