@@ -28,7 +28,7 @@ body {
     width: 80%;
     max-width: 400px;
     min-width: 320px;
-    height: 330px;
+    height: 300px;
     border: none;
     border-radius: 1px;
     padding: 10px;
@@ -110,20 +110,4 @@ body {
     background-color: #007acc;
     border: none;
     transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-.navigation {
-    height: 50px;
-    background-color: #ffffff;
-    width: fit-content;
-    margin: auto;
-    padding: 10px;
-    border: solid 1px #f0f0f0;
-    border-radius: 5px;
-}
-
-.links img {
-    height: 30px;
-    display: flex;
-    flex-direction: column;
 }
