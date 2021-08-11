@@ -117,9 +117,22 @@ body {
     background-color: #ffffff;
     width: fit-content;
     margin: auto;
-    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     border: solid 1px #f0f0f0;
     border-radius: 5px;
+}
+
+.links {
+    text-decoration: none;
+    color: gray;
+    margin: auto 5px auto 5px;
+}
+
+.links:hover {
+    text-decoration: underline;
+    color: #007acc;
 }
 
 .links img {
