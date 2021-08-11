@@ -1,1 +1,0 @@
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vQgr-pnbL97c2aYpLuIT6TqyBsG6yyodWmRwQfB_zJNNJxUUWIOUnhMruvkNan00eQXT-EU3EWliq7C/pub?embedded=true"></iframe>
