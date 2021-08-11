@@ -127,3 +127,14 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+@media (max-width: 430px) {
+    .center {
+        border-radius: 10px;
+        border: none;
+    }
+    .contactdetails {
+        border-radius: 10px;
+        border: none
+    }
+}
