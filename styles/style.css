@@ -1,0 +1,113 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    margin: 0;
+}
+
+body {
+    background: url("/images/background____.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #0339BA;
+    width: 100%;
+    height: 100%;
+}
+
+.main-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center {
+    background-color: #ffffff;
+    width: 80%;
+    max-width: 400px;
+    min-width: 320px;
+    height: 300px;
+    border: none;
+    border-radius: 1px;
+    padding: 10px;
+    margin: AUTO;
+    /* border: 5px solid #FFFF00;
+    padding: 10px;*/
+}
+
+.contactdetails {
+    height: fit-content;
+    width: 80%;
+    max-width: 400px;
+    min-width: 320px;
+    margin: 20px auto auto auto;
+    background-color: rgb(28, 28, 28);
+    border: none;
+    border-radius: 1px;
+    padding: 10px;
+}
+
+.image-container {
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+}
+
+.image-container img {
+    height: 50px;
+}
+
+.nameheader,
+.surnameheader {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+.nameheader {
+    color: gray;
+}
+
+.surnameheader {
+    color: #007acc;
+    text-decoration: overline;
+}
+
+.second-img {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.description {
+    font-size: 15px;
+    text-align: center;
+    margin: 5px auto 20px auto;
+}
+
+.mediabuttoncontainer {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.mediaaccounts {
+    padding: 10px;
+    background-color: transparent;
+    color: #cdcdcd;
+    width: 60px;
+    height: 60px;
+    border: solid 1px #5d5d5d;
+    border-radius: 50%;
+}
+
+.mediaaccounts img {
+    height: 30px;
+}
+
+.mediaaccounts:hover {
+    background-color: #007acc;
+    border: none;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
