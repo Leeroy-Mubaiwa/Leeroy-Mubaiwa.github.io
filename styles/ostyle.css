@@ -5,6 +5,17 @@
     margin: 0;
 }
 
+.stilldev {
+    background-color: #007acc;
+    color: white;
+    padding: 10px;
+}
+
+.stilldev img {
+    height: 25px;
+    border-radius: 50%;
+}
+
 body {
     background: url("/images/background____.jpg");
     background-position: center center;
